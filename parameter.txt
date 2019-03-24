@@ -1,0 +1,1 @@
+docker run --name fillDB localhost:5000/fillDB npm start

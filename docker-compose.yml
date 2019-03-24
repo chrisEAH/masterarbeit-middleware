@@ -1,0 +1,9 @@
+fill_mongo_db:
+  build: .
+  environment:
+    - ENV=PROD
+    - mqttHost=mqtt://localhost
+    - mongoDB=monitoring
+    - collection=messwert
+    - mongoHost=127.0.0.1
+    - mongoPort=27017
